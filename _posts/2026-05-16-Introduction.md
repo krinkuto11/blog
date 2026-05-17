@@ -11,7 +11,7 @@ Hi everyone!
 My name is Ander and I am a fourth year Computer Engineering student. Ever since I discovered that I could just leave a PC at home with Ubuntu Server installed and control it from campus via SSH I haven't stopped tinkering with it.
 
 
-## My current hardware
+## Current State of the HardWare
 
 My current setup is fairly humble:
 - **Optiplex 5060 SFF**: Old desktop PC that I bought from an online flea market (Wallapop) for about a hundred euros back in 2023. Specs:
@@ -20,13 +20,22 @@ My current setup is fairly humble:
   - Nvidia Tesla P4: Small gpu that I mainly intend to use for transcoding. Bought it because it was dirt cheap and possesed vGPU capabilities. Haven't even set up the license server so that's pending.
 - **AooStar WTR Pro**: This is my newest purchase. I needed a 4 bay NAS that would have a small footprint since it would need to sit behind the TV in the living room. I wasn't looking for performance but this little machine actually outperforms my main server! Specs:
   - 4x IronWolf 4tb: I have these set as RAIDZ1 so I have 12tb of storage available.
-  - AMD Ryzen 7 5825U: 8 cores that I haven't really put to use since more intensive workloads.
+  - AMD Ryzen 7 5825U: 8 cores that I haven't really put to use since more intensive workloads are run on the main server.
   - 32gb LPDDR4: This memory was bought in the midst of the AI craze so it actually cost me as much as the 64 for the other server did back in 2023. 
 
 My dad's pretty sensible to noise so I ended up moving both servers to his office. I have to take the car to perform physical changes to the cluster but at least I don't have to worry about the servers being a bit noisy (trust me, the noise threshold for my living room is ridiculous).
 
 ![Servers at the Office](servers.jpg)
 _My two nodes, alongside the router and another coworker's nas_
+
+## Current State of the Software
+
+Both nodes previously mentioned run ProxMox as the OS and all my workloads work on VMs and some light services on LXCs (for those unexperienced, containers like Docker's but that run directly on the ProxMox kernel).
+
+I also have a VPS that acts as a gateway for the services that I have exposed to the internet.
+
+![Deployment diagram](simplediagram.png)
+_Simplified diagram of my deployment_
 
 ## What's next
 
