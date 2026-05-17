@@ -6,9 +6,6 @@ tags: [linux, introduction]     # TAG names should always be lowercase
 media_subpath: /media/01
 ---
 
-
-# Welcome to my HomeLab Adventures
-
 Hi everyone!
 
 My name is Ander and I am a fourth year Computer Engineering student. Ever since I discovered that I could just leave a PC at home with Ubuntu Server installed and control it from campus via SSH I haven't stopped tinkering with it.
