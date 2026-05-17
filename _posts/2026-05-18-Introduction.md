@@ -1,6 +1,6 @@
 ---
 title: Introduction to my HomeLab adventures
-date: 2026-05-19 00:00:00 +0100
+date: 2026-05-16 00:00:00 +0100
 categories: [HomeLab, General]
 tags: [linux, introduction]     # TAG names should always be lowercase
 media_subpath: /media/01
