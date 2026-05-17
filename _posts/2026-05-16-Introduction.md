@@ -28,7 +28,7 @@ My current setup is fairly humble:
 
 My dad's pretty sensible to noise so I ended up moving both servers to his office. I have to take the car to perform physical changes to the cluster but at least I don't have to worry about the servers being a bit noisy (trust me, the noise threshold for my living room is ridiculous).
 
-![Servers at the Office](/media/01/servers.jpg)
+![Servers at the Office](servers.jpg)
 _My two nodes, alongside the router and another coworker's nas_
 
 ## What's next
